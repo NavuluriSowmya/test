@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Concert Vibes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #111;
+      color: #f2f2f2;
+    }
+
+    header {
+      background-color: #222;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      background-color: #333;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .banner {
+      background: url('https://images.unsplash.com/photo-1518976024611-4886f232dcb0') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 2px 2px 4px #000;
+      font-size: 3em;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      border-bottom: 2px solid #444;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .concert {
+      background-color: #1c1c1c;
+      margin-bottom: 15px;
+      padding: 15px;
+      border-left: 5px solid #ff4081;
+    }
+
+    .concert h3 {
+      margin: 0;
+    }
+
+    footer {
+      background-color: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 5px;
+    }
+
+    form button {
+      background-color: #ff4081;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #e73370;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🎤 Concert Vibes</h1>
+    <p>Your gateway to amazing live music experiences!</p>
+  </header>
+
+  <nav>
+    <a href="#concerts">Upcoming Concerts</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="banner">
+    Live the Music.
+  </div>
+
+  <div class="section" id="concerts">
+    <h2>🎶 Upcoming Concerts</h2>
+    <div class="concert">
+      <h3>Rock Night with Thunderband</h3>
+      <p>Date: October 10, 2025</p>
+      <p>Venue: Echo Arena, Los Angeles</p>
+    </div>
+    <div class="concert">
+      <h3>Jazz Under the Stars</h3>
+      <p>Date: October 18, 2025</p>
+      <p>Venue: Central Park, New York</p>
+    </div>
+    <div class="concert">
+      <h3>EDM Festival 2025</h3>
+      <p>Date: November 2, 2025</p>
+      <p>Venue: Beachfront Arena, Miami</p>
+    </div>
+  </div>
+
+  <div class="section" id="about">
+    <h2>🎸 About Us</h2>
+    <p>Concert Vibes is a hub for live music lovers. Whether you're into rock, pop, EDM, or jazz, we bring you the best concerts happening near you. Join our community and never miss a beat.</p>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>📬 Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 Concert Vibes. All rights reserved.
+  </footer>
+
+</body>
+</html>
